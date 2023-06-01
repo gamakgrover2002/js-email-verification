@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+ 
+  }
+input {
+width: 300px;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 3px solid #ccc;
+
+outline: none;
+border-radius: 10px;
+}
+
+input:focus {
+border: 5px solid blue;
+}
+#form{
+border: 2px solid black;
+width: 400px;
+height: 400px;
+padding: 10px;
+background-image: url("image.jpg");
+color: white;
+font-weight: bold;
+font-size: large;
+margin-left: 35vw;
+margin-top: 10vh;
+padding: 60px;
+text-decoration: underline;
+border: solid 5px violet;
+border-radius: 40px;
+animation: example 5s infinite;
+}
+h1{
+text-align: center;
+}
+button{
+cursor: pointer;
+width: 70px;
+height: 40px;
+margin-left: 150px;
+transition: background-color 3s ease; 
+background-color: blue;
+
+
+}
+button:hover{
+background-color: lightblue;
+border: solid 5px blue;
+
+}
+
+@keyframes example {
+  14.28% {border-color: violet;}
+   28.57%{border-color: indigo;}
+   42.85%{border-color: blue;}
+   57.13%{border-color: green;}
+   71.41%{border-color:yellow;}
+   85.69%{border-color: orange;}
+   100%{border-color: red;
+   }
+}
