@@ -6,7 +6,7 @@ const display = ()=>{
         alert("invalid email enter more characters in email");
     }
     else if(email.indexOf('@') <0){
-        alert("mail must contain @");
+        alert("e-mail must contain @");
     }
     else if(pass.length < 8 ){
         alert('password length too less');
